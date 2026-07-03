@@ -11,5 +11,4 @@ Você pode instalar este sistema diretamente no seu projeto Unity usando o Git U
 3. Clique no botão **`+`** (canto superior esquerdo) e selecione **Add package from git URL...**.
 4. Cole o link abaixo e clique em **Add**:
    ```text
-   [https://github.com/JMNumber3/](https://github.com/JMNumber3/)[Dialogue-System-for-Unity-6000.4-Dev-U-
-].git
+   [https://github.com/JMNumber3/](https://github.com/JMNumber3/)[Dialogue-System-for-Unity-6000.4-Dev-U-].git
