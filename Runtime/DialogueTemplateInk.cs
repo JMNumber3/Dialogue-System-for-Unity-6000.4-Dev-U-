@@ -164,8 +164,8 @@ namespace DialogueSystem
             IsDialogueActive = false;
             DialogueCleaner(simpleTextBox, simpleText);
             DialogueCleaner(choiceTextBox, choiceText, true);
-            choicecontinuebutton.interactable = false;
-            continueButton.interactable = false;
+            if(useChoiceDialogue) choicecontinuebutton.interactable = false;
+            if(useSimpleDialogue) continueButton.interactable = false;
             currentInk = null;
             currentStory = null;
             Debug.Log("Dialogo acabou");
