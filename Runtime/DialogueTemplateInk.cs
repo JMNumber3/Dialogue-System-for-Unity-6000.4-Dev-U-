@@ -56,8 +56,8 @@ namespace DialogueSystem
         }
         void Start()
         {
-            continueButton.onClick.AddListener(ContinueButton);
-            choicecontinuebutton.onClick.AddListener(SkipDialogue);
+            if(useSimpleDialogue) continueButton.onClick.AddListener(ContinueButton);
+            if(useChoiceDialogue) choicecontinuebutton.onClick.AddListener(SkipDialogue);
         }
 
         public void SkipDialogue()
