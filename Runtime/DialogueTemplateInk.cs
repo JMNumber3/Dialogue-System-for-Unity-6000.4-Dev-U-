@@ -189,8 +189,8 @@ namespace DialogueSystem
 
         void OnDestroy()
         {
-            continueButton.onClick.RemoveAllListeners();
-            choicecontinuebutton.onClick.RemoveAllListeners();
+            if(useSimpleDialogue) continueButton.onClick.RemoveAllListeners();
+            if(useChoiceDialogue) choicecontinuebutton.onClick.RemoveAllListeners();
         }
 
         private void SetText(TextMeshProUGUI dialBox, string text)
